@@ -20,7 +20,7 @@ public class Main {
                 for (int i = 0; i < rows; i++) {
                     triangle[i] = new int[i + 1]; // Создаем строку с i + 1 элементами
                     for (int j = 0; j <= i; j++) {
-                        triangle[i][j] = j + 1; // Заполняем элементы
+                                        triangle[i][j] =  1; // Заполняем элементы
                     }
                 }
 
